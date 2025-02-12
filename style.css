@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color:#00A398;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #D00027;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+
+  }
+
+  header li a {
+    color: yellow;
+  }
+
+  footer p a {
+    color: yellow;
+  }
+
+  #tentang {
+    border: 2px solid #00A398;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: justify;
+    height: auto;
+  }
+  
+  #pengalaman {
+    border: 2px solid #00A398;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: justify;
+    height: auto;
+  }
+
+  aside {
+    border: 3px solid #00A398;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: justify;
+    height: auto;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 30px;
+  }
+  
+  main {
+    padding: 30px;
+  }
+
+  .image1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.image2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+  object-fit: contain;
+  margin-bottom: 10px;
+  float: right;
+}
