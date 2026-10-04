@@ -1,5 +1,8 @@
 # 🌐 Website Biografi Dimas Artha
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?style=for-the-badge&amp;logo=github)](https://dimasartha.github.io/Biografi-Dimas-Artha/)
+[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fdimasartha.github.io%2FBiografi-Dimas-Artha%2F&amp;style=for-the-badge&amp;logo=github)](https://dimasartha.github.io/Biografi-Dimas-Artha/)
+
 Website personal yang menyajikan biografi, profil, dan informasi lengkap mengenai Dimas Artha. Proyek ini dibuat sebagai web portofolio yang bersih, interaktif, dan responsif.
 
 ---
