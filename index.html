@@ -14,15 +14,16 @@
   <body>
     <!-- Header: Judul dan Navigasi -->
     <header>
+	<button id="lang-btn" onclick="toggleLanguage()">English</button>
         <img src="img/pas foto.jpg" class="image1"/>
         <img src="img/lfc.png" class="image2"/> 
       <h1>Dimas Artha Harfianto</h1>
-      <h2>Mahasiswa</h2>
+      <h2 id="subtitle">Mahasiswa</h2>
       <nav>
         <ul>
-          <li><a href="#tentang">Tentang</a></li>
-          <li><a href="#pengalaman">Pengalaman</a></li>
-          <li><a href="#kontak">Kontak</a></li>
+          <li><a href="#tentang" id="nav-tentang">Tentang</a></li>
+          <li><a href="#pengalaman" id="nav-pengalaman">Pengalaman</a></li>
+          <li><a href="#kontak" id="nav-kontak">Kontak</a></li>
         </ul>
       </nav>
     </header>
@@ -31,42 +32,38 @@
     <main>
       <!-- Bagian Tentang (Biografi) -->
       <article id="tentang">
-        <h3>Tentang Saya</h3>
-        <p>
-          Halo, perkenalkan saya Dimas Artha Harfianto.
-        </p>
+        <h3 id="tentang-judul">Tentang Saya</h3>
+        <p id="tentang-p1">Halo, perkenalkan saya Dimas Artha Harfianto.</p>
         <div>
-          <p>
-            Saya mahasiswa dari jurusan Teknik Informatika di Politeknik Negeri Bandung.
-          </p>
+          <p id="tentang-p2">Saya mahasiswa dari jurusan Teknik Informatika di Politeknik Negeri Bandung.</p>
         </div>
-          <p>
-            Saya memiliki minat dalam pemrograman dan pengembangan web.
-          </p>
+          <p id="tentang-p3">Saya memiliki minat dalam pemrograman dan pengembangan web.</p>
         <div>
       </article>
 
       <!-- Bagian Pengalaman -->
       <article id="pengalaman">
-        <h4>Pengalaman</h4>
+        <h4 id="pengalaman-judul">Pengalaman</h4>
         <ul>
-          <li>Ketua POLSIS SMAN 6 Bandung | 2021-2022</li>
-          <li>Medali Perak Olimpiade Matematika Tridaya Jawa Barat | 2022</li>
+          <li id="pengalaman-1">Ketua POLSIS SMAN 6 Bandung | 2021-2022</li>
+          <li id="pengalaman-2">Medali Perak Olimpiade Matematika Tridaya Jawa Barat | 2022</li>
         </ul>
       </article>
 
     <!-- Aside: Informasi Tambahan -->
     <aside>
-      <h5>Fakta Menarik</h5>
-      <p>Saya suka bermain sepak bola atau futsal.</p>
+      <h5 id="fakta-judul">Fakta Menarik</h5>
+      <p id="fakta-p">Saya suka bermain sepak bola atau futsal.</p>
     </aside>
 
     <!-- Footer: Kontak -->
     <footer id="kontak">
-      <h6>Hubungi Saya</h6>
+      <h6 id="kontak-judul">Hubungi Saya</h6>
       <p>Email: <a href="mailto:dimasanto2006@gmail.com">dimasanto2006@gmail.com</a></p>
       <p>Instagram: <a href="https://www.instagram.com/dimsas_33" target="_blank">@dimsas_33</a></p>
       <p>Nomor HP: 0812-2243-077</p>
     </footer>
+    
+    <script src="scripts/lang.js"></script>
   </body>
 </html>
